@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Home } from './Pages/Home';
+import Home from './Pages/Home';
 import Aktuelnosti from './Pages/Aktuelnosti';
 import { ONama } from './Pages/Onama';
 import { OCrnojGori } from './Pages/OCrnojGori';

@@ -1,0 +1,17 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css');
+
+h1,
+p {
+  font-family: sans-serif;
+}
+
+.App {
+  padding: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

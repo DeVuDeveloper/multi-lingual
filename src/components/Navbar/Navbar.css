@@ -2,7 +2,7 @@
   background-color: #000;
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 0.7rem;
   position: sticky;
@@ -12,7 +12,7 @@
 
 .nav-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 80px;
@@ -34,12 +34,28 @@
   list-style: none;
   text-align: center;
   margin-right: 2rem;
+  margin-left: 100px;
+}
+
+.nav1-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
 }
 
 .nav-links {
   color: #fff;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.5rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+
+.nav1-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
   height: 100%;
   border-bottom: 3px solid transparent;
 }
@@ -74,6 +90,12 @@
 
 .nav-icon {
   display: none;
+}
+
+.icon {
+  color: #fff;
+  font-size: 15px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 960px) {
