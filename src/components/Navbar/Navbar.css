@@ -98,6 +98,18 @@
   margin-right: 20px;
 }
 
+select {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+}
+
+select option {
+  background-color: transparent;
+  color: rgb(41, 39, 39);
+}
+
 @media screen and (max-width: 960px) {
   .nav-menu {
     display: flex;

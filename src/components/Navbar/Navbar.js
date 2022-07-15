@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable jsx-a11y/role-supports-aria-props */
 /* eslint-disable arrow-body-style */
 /* eslint-disable prefer-template */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -8,16 +10,6 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
-const languages = [
-  { value: '', text: 'Language' },
-  { value: 'en', text: 'English' },
-  { value: 'bs', text: 'Crnogorski' },
-  { value: 'ru', text: 'Russian' },
-  { value: 'de', text: 'German' },
-  { value: 'fr', text: 'French' },
-  { value: 'pl', text: 'Polish' },
-];
-
 function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -25,7 +17,7 @@ function NavBar() {
 
   const handleChange = (e) => {
     setLang(e.target.value);
-    const loc = 'https://projekat-filip.netlify.app/';
+    const loc = 'http://localhost:3000';
     window.location.replace(loc + '?lng=' + e.target.value);
   };
 
@@ -77,13 +69,12 @@ function NavBar() {
 
           <li className="nav1-item">
             <select value={lang} onChange={handleChange}>
-              {languages.map((item) => {
-                return (
-                  <option key={item.value} value={item.value}>
-                    {item.text}
-                  </option>
-                );
-              })}
+              <option value="en">EN 🇬🇧</option>
+              <option value="bs">MN 🇲🇪</option>
+              <option value="ru">RU 🇷🇺</option>
+              <option value="de">DE 🇩🇪</option>
+              <option value="fr">FR 🇫🇷</option>
+              <option value="pl">PL 🇵🇱</option>
             </select>
           </li>
           <li className="nav1-item"></li>
