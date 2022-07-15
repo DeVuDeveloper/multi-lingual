@@ -3,11 +3,13 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './Navbar2.css';
 
 function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const { t } = useTranslation();
 
   return (
     <nav className="navbar2">
@@ -24,7 +26,7 @@ function NavBar() {
               className="nav2-links"
               onClick={handleClick}
             >
-              Home
+              {t('home')}
             </NavLink>
           </li>
           <li className="nav2-item">
@@ -35,7 +37,7 @@ function NavBar() {
               className="nav2-links"
               onClick={handleClick}
             >
-              O nama
+              {t('info')}
             </NavLink>
           </li>
           <li className="nav2-item">
@@ -48,7 +50,7 @@ function NavBar() {
               className="nav2-links"
               onClick={handleClick}
             >
-              Usluge
+              {t('usluge')}
             </NavLink>
           </li>
           <li className="nav2-item">
@@ -61,7 +63,7 @@ function NavBar() {
               className="nav-links"
               onClick={handleClick}
             >
-              O Crnoj Gori
+              {t('mne')}
             </NavLink>
           </li>
           <li className="nav2-item">
@@ -87,7 +89,7 @@ function NavBar() {
               className="nav2-links"
               onClick={handleClick}
             >
-              Aktuelnosti
+              {t('actual')}
             </NavLink>
           </li>
           <li className="nav2-item">
@@ -100,7 +102,7 @@ function NavBar() {
               className="nav2-links"
               onClick={handleClick}
             >
-              CONTACT
+              {t('contact')}
             </NavLink>
           </li>
           <li className="nav2-item">

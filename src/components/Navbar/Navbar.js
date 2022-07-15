@@ -8,6 +8,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './Navbar.css';
 
 function NavBar() {
@@ -17,9 +18,10 @@ function NavBar() {
 
   const handleChange = (e) => {
     setLang(e.target.value);
-    const loc = 'https://projekat-filip.netlify.app/';
+    const loc = 'https://projekat-filip.netlify.app/?lng=ru';
     window.location.replace(loc + '?lng=' + e.target.value);
   };
+  const { t } = useTranslation();
 
   return (
     <nav className="navbar">
@@ -44,7 +46,7 @@ function NavBar() {
               className="nav-links"
               onClick={handleClick}
             >
-              Venues
+              Venue
             </NavLink>
           </li>
           <li className="nav-item">
@@ -55,7 +57,7 @@ function NavBar() {
               className="nav-links"
               onClick={handleClick}
             >
-              Contact us
+              {t('contactus')}
             </NavLink>
           </li>
           <li className="nav-item"></li>
