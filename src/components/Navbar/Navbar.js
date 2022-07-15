@@ -18,7 +18,7 @@ function NavBar() {
 
   const handleChange = (e) => {
     setLang(e.target.value);
-    const loc = 'http://localhost:3000';
+    const loc = 'https://projekat-filip.netlify.app/';
     window.location.replace(loc + '?lng=' + e.target.value);
   };
   const { t } = useTranslation();
@@ -57,7 +57,7 @@ function NavBar() {
               className="nav-links"
               onClick={handleClick}
             >
-              {t('contactus')}
+              {t('about')}
             </NavLink>
           </li>
           <li className="nav-item"></li>
