@@ -18,7 +18,7 @@ function NavBar() {
 
   const handleChange = (e) => {
     setLang(e.target.value);
-    const loc = 'https://projekat-filip.netlify.app/?lng=ru';
+    const loc = 'http://localhost:3000';
     window.location.replace(loc + '?lng=' + e.target.value);
   };
   const { t } = useTranslation();
