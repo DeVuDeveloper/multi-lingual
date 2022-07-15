@@ -25,7 +25,7 @@ function NavBar() {
 
   const handleChange = (e) => {
     setLang(e.target.value);
-    const loc = 'http://localhost:3000/';
+    const loc = 'https://projekat-filip.netlify.app/';
     window.location.replace(loc + '?lng=' + e.target.value);
   };
 
