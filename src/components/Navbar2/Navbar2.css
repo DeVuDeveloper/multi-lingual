@@ -1,14 +1,14 @@
 .navbar2 {
   background-color: rgb(139, 133, 133);
-  height: 62px;
+  height: 69px;
   display: flex;
   align-items: center;
-  font-size: 0.6rem;
+  font-size: 1rem;
   width: 100%;
   position: sticky;
   padding-left: 100px;
-
-  /* z-index: 20; */
+  top: 50px;
+  z-index: 20;
 }
 
 .nav2-logo {
