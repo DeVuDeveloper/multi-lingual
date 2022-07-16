@@ -1,0 +1,67 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 26px;
+  height: 26px;
+  right: 26px;
+  top: 12px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background: #8c918e;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #494743;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background-image:
+    linear-gradient(rgb(212, 165, 11) 0.8%, rgba(0, 0, 0, 0.2)),
+    url(https://i.pinimg.com/originals/36/51/ff/3651ffa7925854ac39fbc02dba951b6d.png);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #494640;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+.bm-overlay {
+  background: rgba(15, 15, 15, 0.3);
+}
+
+.hamburger-menu p:hover {
+  background-color: rgb(152, 192, 42);
+  padding: 0 5px;
+  color: #fff;
+}
+
+@media screen and (min-width: 700px) {
+  .hamburger-menu {
+    display: none;
+  }
+}

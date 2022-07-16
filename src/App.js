@@ -12,6 +12,7 @@ import { Mts } from './Pages/Mts';
 import { LocationFounder } from './Pages/LocationFounder';
 import NavBar from './components/Navbar/Navbar';
 import NavBar2 from './components/Navbar2/Navbar2';
+import Hamburger from './components/Hamburger/Hamburger';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <NavBar />
         <NavBar2 />
+        <Hamburger />
 
         <div className="pages">
           <Switch>
