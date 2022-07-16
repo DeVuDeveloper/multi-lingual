@@ -5,7 +5,7 @@ import React from 'react';
 export const OCrnojGori = () => {
   return (
     <div>
-      <h1>OCrnojGori</h1>
+      <h1>Aout Spain</h1>
     </div>
   );
 };

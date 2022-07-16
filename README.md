@@ -1,70 +1,182 @@
-# Getting Started with Project
+# Multi Lingual React app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div id="top"></div>
+<!-- PROJECT LOGO -->
+<div align="center">
+  
+<a href="https://github.com/VuDej/multi-langual.git#readme"><strong>Explore the docs »</strong></a>
+<br />
+<br />
+ <a href="https://multi-lingual.netlify.app/">View Demo</a>
+.
+<a href="https://github.com/VuDej/multi-langual.gitissues">Report Bug</a>
+·
+<a href="https://github.com/VuDej/multi-langual.git/issues">Request Feature</a>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
 
-### `npm start`
+[App screenshot]()
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot](
 
-### `npm test`
+## Description 🏗️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React multi_lingual app. User can chage language from langage switcher in navbar.
+Used I18 nexus backend.
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started 🏁
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites and Dependencies 📜
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You will be needing:
 
-### `npm run eject`
+- A terminal terminal
+- A code editor
+- React(follow the instructions based on your OS)
+  ```bash
+  https://reactjs.org/docs/create-a-new-react-app.html
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Clone this repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/VuDej/multi-langual.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Move into the directory with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd multilingual
+```
 
-## Learn More
+### Install linter
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Start server
+```bash
+npm start
+```
 
-### Code Splitting
+### Install linter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+### Run linter
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For Stylelint:
 
-### Making a Progressive Web App
+```bash
+npx stylelint "**/*.{css,scss}"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Auto-correct
 
-### Advanced Configuration
+For stylelint:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npx stylelint "**/*.{css,scss}" --fix
+```{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": "off",
+    "import/no-unresolved": "off",
+    "no-shadow": "off"
+  },
+  "ignorePatterns": [
+    "dist/",
+    "build/"
+  ]
+}
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+## Built With 🔨
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+
+|     | Languages                                                                                                                                                                                                               |     |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+|     | ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) |     |
+
+</div>
+
+<div align="center">
+
+|     | Tools 🛠️                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |     |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+|     | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) |     |
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+</div>
+
+## Authors ✍️
+
+<div align="center">
+
+| 👤 vudej |
+| -------- |
+
+| <a target="_blank" href="https://github.com/VuDej"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="Github profile"></a> <a target="_blank" href="https://www.linkedin.com/in/dejan-vujovic/"><img src="https://img.shields.io/badge/-LinkedIn-0077b5?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="Linkedin profile"></a> <a target="_blank" href="https://twitter.com/DejanVuj"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter profile"></a>
+|
+
+</div>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 🤝 Contributors
+
+Contributions, issues, and feature requests are greatly appreciated!
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "improvements".
+
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/yourfeaturename)
+- Commit your Changes (git commit -m 'Add suggested feature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+Feel free to check the [issues page](https://github.com/VuDej/multi-langual.git).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 📝 License
+
+This project is licensed by [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## Show your support 💪
+
+Give a ⭐️ if you like this project!
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>

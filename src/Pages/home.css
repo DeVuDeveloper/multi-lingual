@@ -11,6 +11,12 @@
   padding: 100px 200px;
 }
 
+.text-bkg {
+  background-color: rgb(46, 50, 53);
+  opacity: 0.7;
+  padding: 7px 12px;
+}
+
 .app__chef-content {
   display: flex;
   flex-direction: column;
@@ -81,6 +87,6 @@
 
   .home-title {
     font-size: 29px;
-    text-align: center;
+    text-align: ;
   }
 }

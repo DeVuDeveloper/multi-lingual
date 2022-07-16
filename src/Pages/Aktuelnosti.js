@@ -5,7 +5,7 @@ import React from 'react';
 const Aktuelnosti = () => {
   return (
     <div>
-      <h1>Aktuelnosti</h1>
+      <h1>News</h1>
     </div>
   );
 };

@@ -47,7 +47,7 @@ const Home = () => {
         <div className="app__wrapper_info app__bg textual">
           <h1 className="headtext__cormorant home-title">{t('about')}</h1>
 
-          <div className="app__chef-content">
+          <div className="app__chef-content text-bkg">
             <div className="app__chef-content_quote">
               <img src={quote} alt="quote_image" />
               <p className="p__opensans tremo">

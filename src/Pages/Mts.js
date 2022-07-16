@@ -5,7 +5,7 @@ import React from 'react';
 export const Mts = () => {
   return (
     <div>
-      <h1>MTS</h1>
+      <h1>Spain</h1>
     </div>
   );
 };
