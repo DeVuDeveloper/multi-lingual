@@ -44,9 +44,8 @@ const Home = () => {
         showDots={true}
         ssr={true}
       >
-        {/* <h2>{t('welcome')}</h2> */}
         <div className="app__wrapper_info app__bg textual">
-          <h1 className="headtext__cormorant">{t('about')}</h1>
+          <h1 className="headtext__cormorant home-title">{t('about')}</h1>
 
           <div className="app__chef-content">
             <div className="app__chef-content_quote">

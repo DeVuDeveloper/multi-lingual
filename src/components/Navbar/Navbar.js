@@ -22,6 +22,7 @@ function NavBar() {
 
   const languages = [
     { name: 'EN', code: 'en' },
+    { name: 'ES', code: 'es' },
     { name: 'ME', code: 'bs' },
     { name: 'DE', code: 'de' },
     { name: 'RU', code: 'ru' },
@@ -94,6 +95,7 @@ function NavBar() {
             <li className="nav1-item">
               <select onChange={handleChangeLocale} value={language}>
                 <option value="en">EN 🇬🇧</option>
+                <option value="es">ES 🇪🇸</option>
                 <option value="bs">MN 🇲🇪</option>
                 <option value="ru">RU 🇷🇺</option>
                 <option value="de">DE 🇩🇪</option>
