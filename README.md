@@ -15,19 +15,15 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-
-[App screenshot]()
 
 ## Screenshots
 
-![Screenshot](
+![Screenshot](./screen.png)
 
 ## Description 🏗️
 
 React multi_lingual app. User can chage language from langage switcher in navbar.
-Used I18 nexus backend.
+Used I18 nexus backend. I18next and Google translate. Cookies policy implemented.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
